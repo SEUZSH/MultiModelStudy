@@ -1,0 +1,52 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "cats_vs_dogs",
+  "dataset_size": 730992549,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/microsoft/cats_vs_dogs@b5ae3589204019bc2cc97e99e4914a54589333ef/data/train-00000-of-00002.parquet": {
+      "num_bytes": 330245704,
+      "checksum": null
+    },
+    "hf://datasets/microsoft/cats_vs_dogs@b5ae3589204019bc2cc97e99e4914a54589333ef/data/train-00001-of-00002.parquet": {
+      "num_bytes": 391396716,
+      "checksum": null
+    }
+  },
+  "download_size": 721642420,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "labels": {
+      "names": [
+        "cat",
+        "dog"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1452634969,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 730992549,
+      "num_examples": 23410,
+      "shard_lengths": [
+        16605,
+        6805
+      ],
+      "dataset_name": "cats_vs_dogs"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

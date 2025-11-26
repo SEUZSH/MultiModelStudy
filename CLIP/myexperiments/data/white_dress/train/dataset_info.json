@@ -1,0 +1,93 @@
+{
+  "builder_name": "imagefolder",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 1136,
+  "description": "",
+  "download_checksums": {
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd01.jpg": {
+      "num_bytes": 401542,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd02.jpg": {
+      "num_bytes": 1061697,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd03.jpg": {
+      "num_bytes": 791901,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd04.jpg": {
+      "num_bytes": 749952,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd05.jpg": {
+      "num_bytes": 1461888,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_dress/wd06.jpg": {
+      "num_bytes": 1204024,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd01.jpg": {
+      "num_bytes": 232039,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd02.jpg": {
+      "num_bytes": 955382,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd03.jpg": {
+      "num_bytes": 1114124,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd04.jpg": {
+      "num_bytes": 716872,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd05.jpg": {
+      "num_bytes": 641545,
+      "checksum": null
+    },
+    "/mnt/disk1/suhan/STUDY/CLIP/CLIP/myexperiments/images/white_wedding_dress/wwd06.jpg": {
+      "num_bytes": 774548,
+      "checksum": null
+    }
+  },
+  "download_size": 10105514,
+  "features": {
+    "image": {
+      "_type": "Image"
+    },
+    "label": {
+      "names": [
+        "white_dress",
+        "white_wedding_dress"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 10106650,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1136,
+      "num_examples": 12,
+      "dataset_name": "imagefolder"
+    }
+  },
+  "task_templates": [
+    {
+      "task": "image-classification",
+      "label_column": "label"
+    }
+  ],
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
